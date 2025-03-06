@@ -1,0 +1,48 @@
+.event-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 16px;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .event-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .event-content {
+    padding: 16px;
+  }
+  
+  .event-content h3 {
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-size: 24px;
+  }
+  
+  .event-content p {
+    margin: 4px 0;
+  }
+  
+  .join-button {
+    background-color: #00a1e4;
+    color: #fff;
+    border: none;
+    padding: 10px 16px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+    margin-top: 16px;
+  }
+  
+  .event-date {
+    text-align: right;
+    padding: 8px 16px;
+    font-size: 12px;
+    color: #999;
+  }
+  
