@@ -1,4 +1,5 @@
 import React from "react";
+import GalleryLowerSection from "./GalleryLowerSection";
 
 import { slidercontent } from "./SliderContent";
 
@@ -44,6 +45,7 @@ function GallerySlider() {
           </Swiper>
         </div>
       </div>
+      <GalleryLowerSection />
     </>
   );
 }
