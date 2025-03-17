@@ -1,6 +1,13 @@
+import TeamSection from '../components/TeamSection'; 
+
 const OurTeamPage = () => {
-    return <h1>Meet Our Team</h1>;
-  };
-  
-  export default OurTeamPage;
+  return (
+    <div className='our-team'>
+      <TeamSection />
+    </div>
+  );
+};
+
+export default OurTeamPage;
+
   
