@@ -1,9 +1,9 @@
-import TeamSection from '../components/TeamSection'; 
+import Teamsection from '../components/Teamsection'; 
 
 const OurTeamPage = () => {
   return (
     <div className='our-team'>
-      <TeamSection />
+      <Teamsection />
     </div>
   );
 };
