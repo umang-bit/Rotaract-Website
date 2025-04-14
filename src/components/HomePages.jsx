@@ -115,7 +115,6 @@ const HomePage = () => {
       </section>
 
       <section id="contact" className="contact-us-section">
-        <h```jsx
         <h1>Contact Us</h1>
         <p>If you have any questions or inquiries, feel free to reach out!</p>
         <form className="contact-form">
