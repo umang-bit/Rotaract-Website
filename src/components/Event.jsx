@@ -10,7 +10,7 @@ const Event = ({ event }) => {
         <p><strong>Time:</strong> {event.time}</p>
         <p><strong>Program duration:</strong> {event.duration}</p>
         <p>{event.description}</p>
-        <button>JOIN THE PROGRAM</button>
+
         <div className="event-date">{event.date}</div>
       </div>
     </div>
