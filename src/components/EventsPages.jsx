@@ -19,7 +19,7 @@ const eventsData = [
     duration: "1 day",
     description: "Our club members conduct regular teaching sessions at Birsa Munda School, helping students with their studies and inspiring a love for learning through consistent support and guidance.",
     imageUrl: eventimage, 
-    date: Every Wednesday and Saturday
+    date: "Every Wednesday and Saturday"
   },
   {
     title: "RotaOlympics",
