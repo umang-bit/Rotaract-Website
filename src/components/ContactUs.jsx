@@ -1,5 +1,4 @@
 import React from 'react';
-import { FaLinkedin, FaInstagram, FaFacebook } from 'react-icons/fa'; // Importing social media icons
 
 const ContactUs = () => {
   return (
@@ -16,13 +15,13 @@ const ContactUs = () => {
 
       <div className="social-media">
         <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
-          <FaLinkedin size={30} />
+          <img src="https://upload.wikimedia.org/wikipedia/commons/0/01/LinkedIn_Logo_2023.svg" alt="LinkedIn" />
         </a>
         <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
-          <FaInstagram size={30} />
+          <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_logo_2022.svg" alt="Instagram" />
         </a>
         <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
-          <FaFacebook size={30} />
+          <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook" />
         </a>
       </div>
 
