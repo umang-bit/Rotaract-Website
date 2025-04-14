@@ -1,7 +1,13 @@
 import React from 'react';
 import Event from './Event';
 import './EventsPage.css';
-import eventimage from '../assets/eventimage.png';
+
+// Import different images for each event
+import event1 from '../assets/event1.jpg';
+import event2 from '../assets/event2.jpg';
+import event3 from '../assets/event3.jpg';
+import event4 from '../assets/event4.jpg';
+
 const eventsData = [
   {
     title: "CLOTH DONATION",
@@ -9,7 +15,7 @@ const eventsData = [
     time: "4pm to 6pm",
     duration: "1 day",
     description: "We organized a cloth donation drive, distributing gently used clothes to those in need and spreading warmth and kindness within the community.",
-    imageUrl: eventimage, 
+    imageUrl: event1, 
     date: "15 Jan 2024"
   },
   {
@@ -18,7 +24,7 @@ const eventsData = [
     time: "9am to 12am",
     duration: "1 day",
     description: "Our club members conduct regular teaching sessions at Birsa Munda School, helping students with their studies and inspiring a love for learning through consistent support and guidance.",
-    imageUrl: eventimage, 
+    imageUrl: event2, 
     date: "Every Wednesday and Saturday"
   },
   {
@@ -27,7 +33,7 @@ const eventsData = [
     time: "4pm to 6pm",
     duration: "3 days",
     description: "Rota Olympics is a fun-filled sports event where multiple teams compete in various games, promoting teamwork and sportsmanship. The funds raised are used to support meaningful social causes and community welfare initiatives.",
-    imageUrl: eventimage,  
+    imageUrl: event3,  
     date: "11 Nov 2024"
   },
   {
@@ -36,12 +42,12 @@ const eventsData = [
     time: "4pm to 6pm",
     duration: "3 days",
     description: "SaPNA is an initiative focused on menstrual hygiene, where we distribute sanitary pads to underprivileged women and spread awareness about menstrual health to promote dignity and well-being.",
-    imageUrl: eventimage,  
+    imageUrl: event4,  
     date: "26 Aug 2024"
   }
 ];
 
-// Step 2: Render the EventsPage component
+// EventsPages Component
 const EventsPages = () => {
   return (
     <div className="events-container">
@@ -53,4 +59,5 @@ const EventsPages = () => {
 };
 
 export default EventsPages;
+
 
