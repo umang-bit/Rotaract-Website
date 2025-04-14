@@ -8,12 +8,12 @@ const TeamSection = () => {
   
   const teamData = {
     2023: [
-      { name: "Atyshraj Yadav", role: "President", image: "david.jpg" },
-      { name: "Subarna Bhownik", role: "Vice President", image: "david.jpg" },
-      { name: "Vedant Asawa", role: "Treasurer", image: "david.jpg" },
-      { name: "Soumyashree Nayak", role: "Secretary", image: "david.jpg" },
-      { name: "Labhesh Sonawane", role: "Design Head", image: "saisojan.png" },
-      { name: "Shubranki Maharana", role: "Sergeant at arms", image: "Nishi.jpg" },
+      { name: "Atyshraj Yadav", role: "President", image: "atyush.jpg" },
+      { name: "Subarna Bhownik", role: "Vice President", image: "subarna.jpg" },
+      { name: "Vedant Asawa", role: "Treasurer", image: "vedant.jpg" },
+      { name: "Soumyashree Nayak", role: "Secretary", image: "soumya.jpg" },
+      { name: "Labhesh Sonawane", role: "Design Head", image: "labhesh.png" },
+      { name: "Shubranki Maharana", role: "Sergeant at arms", image: "shubranki.jpg" },
       
     ],
     2024: [
