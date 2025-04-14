@@ -1,0 +1,83 @@
+/* Contact Us Page */
+.contact-container {
+  min-height: 100vh;
+  background-color: #ffffff; /* Clean white background */
+  color: #333;
+  font-family: 'Outfit', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.contact-content {
+  max-width: 900px;
+  width: 100%;
+  padding: 3rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.contact-heading {
+  width: 100vw; /* Full viewport width */
+  background-color: #dbeef5; /* Light blue banner */
+  color: #006494; /* Blue text */
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.contact-subheading {
+  font-size: 1.5rem;
+  font-style: italic;
+  color: #555;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.contact-paragraph {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: #333;
+  text-align: center;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.social-media a {
+  color: #006494;
+  transition: transform 0.3s ease-in-out;
+}
+
+.social-media a:hover {
+  transform: scale(1.2);
+}
+
+.mailing {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.email-link {
+  font-size: 1.25rem;
+  color: #006494;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
