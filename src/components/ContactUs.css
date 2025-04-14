@@ -57,12 +57,14 @@
   margin-top: 2rem;
 }
 
-.social-media a {
-  color: #006494;
+.social-media a svg {
+  width: 40px;
+  height: 40px;
+  fill: #006494;
   transition: transform 0.3s ease-in-out;
 }
 
-.social-media a:hover {
+.social-media a:hover svg {
   transform: scale(1.2);
 }
 
@@ -81,3 +83,4 @@
 .email-link:hover {
   text-decoration: underline;
 }
+
