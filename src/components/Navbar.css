@@ -1,5 +1,9 @@
 /* Navbar.css */
 
+* {
+  font-family: 'Outfit', sans-serif;
+}
+
 .navbar-container {
   height: 80px;
   background-color: white;
@@ -30,18 +34,36 @@
 
 .nav-link {
   text-transform: uppercase;
-  font-weight: 600;
-  color: black;
-  transition: color 0.3s ease;
-  font-size: 16px;
+  font-weight: 500;
+  color: #1f2937; /* Gray-800 */
+  transition: all 0.3s ease;
+  font-size: 15px;
+  letter-spacing: 0.05em;
+  position: relative;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  height: 2px;
+  width: 0;
+  background-color: #3B82F6;
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
 }
 
 .nav-link:hover {
-  color: #006E99;
+  color: #3B82F6;
 }
 
 .nav-link.active {
-  color: #7ED957; /* Light green active color */
+  color: #3B82F6;
+  font-weight: 600;
 }
 
 .burger-menu {
@@ -76,9 +98,14 @@
 
 .mobile-nav-link {
   font-size: 1.5rem;
-  font-weight: bold;
+  font-weight: 500;
   color: white;
   text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.mobile-nav-link:hover {
+  color: #3B82F6;
 }
 
 @media (max-width: 1024px) {
