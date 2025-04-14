@@ -12,9 +12,7 @@ export default function Title() {
             </div>
                 <div className='shift-right'>
                 <div className='Event'>
-                    <div className='label'>Event
-                  
-                    </div>
+
 
                 </div>
             
