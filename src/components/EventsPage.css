@@ -1,61 +1,93 @@
 .events-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 20px;
-  }
-  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Style for individual cards in this layout */
+.event-card {
+  display: flex;
+  flex-direction: row;
+  width: 48%;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Adjust image and content split */
+.event-image {
+  width: 40%;
+  object-fit: cover;
+}
+
+.event-details {
+  padding: 20px;
+  width: 60%;
+}
+
+.event-details h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.event-details p {
+  margin: 8px 0;
+  font-size: 0.95rem;
+}
+
+.event-details button {
+  margin-top: 15px;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+.event-details button:hover {
+  background-color: #0056b3;
+}
+
+.event-date {
+  text-align: right;
+  margin-top: 15px;
+  font-size: 0.9em;
+  color: #666;
+}
+
+/* Responsive layout for tablets and phones */
+@media (max-width: 768px) {
   .event-card {
-    display: flex;
-    flex-direction: row;
-    width: 48%; /* Adjust width as needed */
-    margin-bottom: 20px;
-    background-color: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    overflow: hidden;
+    flex-direction: column;
+    width: 100%;
   }
-  
+
   .event-image {
-    width: 40%;
-    object-fit: cover;
+    width: 100%;
+    height: 200px;
   }
-  
+
   .event-details {
-    padding: 20px;
-    width: 60%;
+    width: 100%;
+    padding: 16px;
   }
-  
+
   .event-details h2 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
+    font-size: 1.3em;
   }
-  
+
   .event-details p {
-    margin: 8px 0;
+    font-size: 0.9rem;
   }
-  
+
   .event-details button {
-    margin-top: 15px;
+    font-size: 0.9em;
+    padding: 8px 16px;
   }
-  
-  .event-date {
-    text-align: right;
-    margin-top: 15px;
-  }
-  .event-details button {
-    background-color: #007bff; 
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 1em;
-    transition: background-color 0.3s ease;
-  }
-  
-  .event-details button:hover {
-    background-color: #0056b3; 
-  }
-    
-  
+}
