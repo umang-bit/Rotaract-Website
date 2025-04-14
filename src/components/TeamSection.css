@@ -15,10 +15,19 @@
 }
 
    .head h1 {
-    font-size: 2.5rem;
-    margin-bottom: 1.5rem;
-    color: rgb(26, 81, 199);
-    text-align: center;
+  width: 100vw; /* Full viewport width */
+  background-color: #dbeef5; /* Light blue banner */
+  color: #006494; /* Blue text */
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
   }
   
   .year-selector {
