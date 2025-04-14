@@ -13,7 +13,7 @@ const TeamSection = () => {
       { name: "Vedant Asawa", role: "Treasurer", image: "vedant.jpg" },
       { name: "Soumyashree Nayak", role: "Secretary", image: "soumya.jpg" },
       { name: "Labhesh Sonawane", role: "Design Head", image: "labhesh.png" },
-      { name: "Shubranki Maharana", role: "Sergeant at arms", image: "shubranki.jpg" },
+      { name: "Shubranki Maharana", role: "Sergeant at arms", image: "shubhranki.jpg" },
       
     ],
     2024: [
