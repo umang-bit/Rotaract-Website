@@ -4,40 +4,40 @@ import './EventsPage.css';
 import eventimage from '../assets/eventimage.png';
 const eventsData = [
   {
-    title: "VRIDDHI",
-    venue: "SAC Garden",
+    title: "CLOTH DONATION",
+    venue: "Azad Basti",
     time: "4pm to 6pm",
-    duration: "3 days",
-    description: "Vriddhi is the event you don't wanna miss upon. Always appreciates about the uniqueness of the event.",
+    duration: "1 day",
+    description: "We organized a cloth donation drive, distributing gently used clothes to those in need and spreading warmth and kindness within the community.",
     imageUrl: eventimage, 
-    date: "Date"
+    date: "15 Jan 2024"
   },
   {
-    title: "VRIDDHI",
-    venue: "SAC Garden",
-    time: "4pm to 6pm",
-    duration: "3 days",
-    description: "Vriddhi is the event you don't wanna miss upon. Always appreciates about the uniqueness of the event.",
+    title: "BIRSA MUNDA SCHOOL",
+    venue: "Birsa Munda School , Jagda Rd",
+    time: "9am to 12am",
+    duration: "1 day",
+    description: "Our club members conduct regular teaching sessions at Birsa Munda School, helping students with their studies and inspiring a love for learning through consistent support and guidance.",
     imageUrl: eventimage, 
-    date: "Date"
+    date: Every Wednesday and Saturday
   },
   {
-    title: "VRIDDHI",
-    venue: "SAC Garden",
+    title: "RotaOlympics",
+    venue: "Sports Complex , NIT RKL",
     time: "4pm to 6pm",
     duration: "3 days",
-    description: "Vriddhi is the event you don't wanna miss upon. Always appreciates about the uniqueness of the event.",
+    description: "Rota Olympics is a fun-filled sports event where multiple teams compete in various games, promoting teamwork and sportsmanship. The funds raised are used to support meaningful social causes and community welfare initiatives.",
     imageUrl: eventimage,  
-    date: "Date"
+    date: "11 Nov 2024"
   },
   {
-    title: "VRIDDHI",
-    venue: "SAC Garden",
+    title: "SaPNA 3.0",
+    venue: "Koel Saraswati Shishu Vidya Mandir",
     time: "4pm to 6pm",
     duration: "3 days",
-    description: "Vriddhi is the event you don't wanna miss upon. Always appreciates about the uniqueness of the event.",
+    description: "SaPNA is an initiative focused on menstrual hygiene, where we distribute sanitary pads to underprivileged women and spread awareness about menstrual health to promote dignity and well-being.",
     imageUrl: eventimage,  
-    date: "Date"
+    date: "26 Aug 2024"
   }
 ];
 
