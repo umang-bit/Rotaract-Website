@@ -11,12 +11,12 @@ import event4 from '../assets/event4.jpg';
 const eventsData = [
   {
     title: "CLOTH DONATION",
-    venue: "Azad Basti",
+    venue: "Azad Basti , Birsa Munda School , Sector 4 , etc.",
     time: "4pm to 6pm",
     duration: "1 day",
-    description: "We organized a cloth donation drive, distributing gently used clothes to those in need and spreading warmth and kindness within the community.",
+    description: "We organise  cloth donation drives regularly, distributing gently used clothes to those in need and spreading warmth and kindness within the community.",
     imageUrl: event1, 
-    date: "15 Jan 2024"
+    date: Recurrent
   },
   {
     title: "BIRSA MUNDA SCHOOL",
