@@ -16,7 +16,7 @@ const eventsData = [
     duration: "1 day",
     description: "We organise  cloth donation drives regularly, distributing gently used clothes to those in need and spreading warmth and kindness within the community.",
     imageUrl: event1, 
-    date: Recurrent
+    date: "Recurrent"
   },
   {
     title: "BIRSA MUNDA SCHOOL",
