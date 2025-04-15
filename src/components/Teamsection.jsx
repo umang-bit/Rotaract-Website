@@ -8,12 +8,12 @@ const TeamSection = () => {
   
   const teamData = {
     2023: [
-      { name: "Atyshraj Yadav", role: "President", image: "atyush.jpg" },
-      { name: "Subarna Bhownik", role: "Vice President", image: "subarna.jpg" },
+      { name: "Atyushraj Yadav", role: "President", image: "atyush.jpg" },
+      { name: "Subarna Bhowmik", role: "Vice President", image: "subarna.jpg" },
       { name: "Vedant Asawa", role: "Treasurer", image: "vedant.jpg" },
       { name: "Soumyashree Nayak", role: "Secretary", image: "soumya.jpg" },
       { name: "Labhesh Sonawane", role: "Design Head", image: "labhesh.jpg" },
-      { name: "Shubranki Maharana", role: "Sergeant at arms", image: "shubhranki.jpg" },
+      { name: "Shubhranki Maharana", role: "Sergeant at arms", image: "shubhranki.jpg" },
       
     ],
     2024: [
@@ -21,9 +21,10 @@ const TeamSection = () => {
       { name: "Swashreeta Senapati", role: "Vice President", image: "swashreeta.jpg"},
       { name: "Jatin Saini", role: "Treasurer", image: "Jatin.jpg" },
       { name: "Vidisha Rout", role: "Secretary", image: "vidisha.jpg" },
-      { name: "Sai Sohan Sajja", role: "Editor in cheif", image: "saisojan.png" },
-      { name: "Nishi Singh", role: "Sergeant at arms", image: "Nishi.jpg" },
-      { name: "Elizabet Grace Stanley", role: "PR officer", image: "El.jpg" },
+      { name: "Sai Sohan Sajja", role: "Editor in chief", image: "saisojan.png" },
+      { name: "Nishi Kumari Singh", role: "Sergeant at arms", image: "Nishi.jpg" },
+      { name: "Elizabeth Grace Stanley", role: "PR officer", image: "El.jpg" },
+      { name: "Jatin Porwal", role: "Design Head", image: "Jatin2.jpg" },
     ],
 
   };
